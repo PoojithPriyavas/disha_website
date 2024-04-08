@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firestore Data Fetch</title>
+    <!-- Firebase JavaScript SDK -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <!-- Your Firebase configuration -->
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyBi8BrtiEvWbKfM3hol928a0yxAazjfYRU",
+            authDomain: "disha-website-34260.firebaseapp.com",
+            projectId: "disha-website-34260",
+            storageBucket: "disha-website-34260.appspot.com",
+            messagingSenderId: "960292523570",
+            appId: "1:960292523570:web:2cfa0938e00b74b486762b",
+            measurementId: "G-XTC7KZW1DH"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+
+        // Get a reference to the Firestore service
+        var firestore = firebase.firestore();
+    </script>
+    <style>
+        /* Style to create a horizontal list */
+        ul.horizontal-list {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        ul.horizontal-list li {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <hi>hello </hi>
+    <section >
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-12 filter-content">
+                    <ul
+                        class="portfolio-simple portfolio-wrapper grid-loading grid grid-4col xxl-grid-4col xl-grid-4col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-extra-large text-center">
+                        <li class="grid-sizer"></li>
+                        <div class="portfolio-box" data-bottom-top="transform: translateY(40px)"
+                            data-top-bottom="transform: translateY(-40px)">
+                            <div class="portfolio-image bg-medium-gray border-radius-6px">
+                                <a href="demo-web-agency-single-project-creative.html"><img
+                                        src="images/assets/personal_protection.png" alt="" /></a>
+                            </div>
+                            <div class="portfolio-caption pt-35px pb-35px md-pt-25px md-pb-25px">
+                                <a href="demo-web-agency-single-project-creative.html"
+                                    class="text-dark-gray text-dark-gray-hover fw-600" id="service-list"> </a>
+                                <span
+                                    class="d-inline-block align-middle w-10px separator-line-1px bg-light-gray ms-10px me-10px xl-ms-5px xl-me-5px"></span>
+                                <div class="d-inline-block">Application</div>
+                            </div>
+                        </div>
+                        <!-- Service items will be dynamically added here -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <script>
+        // Function to fetch data from Firestore and dynamically create <li> elements
+        function fetchDataAndRender() {
+            var serviceList = document.getElementById('service-list');
+
+            // Reference to the collection you want to fetch data from
+            var collectionRef = firestore.collection('services');
+
+            // Fetch documents from the collection
+            collectionRef.get().then(function (querySnapshot) {
+                querySnapshot.forEach(function (doc) {
+                    var data = doc.data();
+                    // Create <li> element
+                    console.log("Document data:", data);
+                    // var li = document.createElement('li');
+                    // // li.className = 'grid-item selected digital transition-inner-all';
+                    // li.className = 'grid-item web digital selected branding transition-inner-all'
+                    // li.innerHTML = ``;
+                    // Append <li> to the service list
+
+                    var fewText = document.createElement('string'); fewText.innerHTML = `${data.service_name_one} `; serviceList.appendChild(fewText);
+                });
+            }).catch(function (error) {
+                console.log("Error getting documents: ", error);
+            });
+        }
+
+        // Call the function to fetch data and render on page load
+        fetchDataAndRender();
+    </script>
+</body>
+
+</html>

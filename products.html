@@ -23,8 +23,10 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
     <link rel="stylesheet" href="demos/web-agency/web-agency.css" />
+    <!-- Firebase SDK -->
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+
     <!-- Your Firebase configuration -->
     <script>
         const firebaseConfig = {
@@ -42,6 +44,9 @@
         // Get a reference to the Firestore service
         var firestore = firebase.firestore();
     </script>
+
+
+
 </head>
 
 <body data-mobile-nav-style="classic" class="background-position-center-top"
@@ -52,13 +57,13 @@
         <nav class="navbar navbar-expand-lg header-light header-transparent bg-transparent disable-fixed">
             <div class="container-fluid">
                 <div class="col-auto col-lg-2 me-lg-0 me-auto">
-                    <a class="navbar-brand" href="demo-web-agency.html">
-                        <img src="images/demo-web-agency-logo-black.png"
-                            data-at2x="images/demo-web-agency-logo-black@2x.png" alt="" class="default-logo">
-                        <img src="images/demo-web-agency-logo-black.png"
-                            data-at2x="images/demo-web-agency-logo-black@2x.png" alt="" class="alt-logo">
-                        <img src="images/demo-web-agency-logo-black.png"
-                            data-at2x="images/demo-web-agency-logo-black@2x.png" alt="" class="mobile-logo">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/assets/logo_50.png" data-at2x="images/assets/logo_112.png" alt=""
+                            class="default-logo">
+                        <img src="images/assets/logo_50.png" data-at2x="images/assets/logo_112.png" alt=""
+                            class="alt-logo">
+                        <img src="images/assets/logo_50.png" data-at2x="images/assets/logo_112.png" alt=""
+                            class="mobile-logo">
                     </a>
                 </div>
                 <div class="col-auto col-lg-8 menu-order position-static">
@@ -71,17 +76,17 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                         <ul class="navbar-nav">
-                            <li class="nav-item"><a href="demo-web-agency.html" class="nav-link">Home</a></li>
-                            <li class="nav-item"><a href="demo-web-agency-about.html" class="nav-link">About</a></li>
+                            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
                             <li class="nav-item dropdown dropdown-with-icon">
-                                <a href="demo-web-agency-expertise.html" class="nav-link">Services</a>
+                                <a href="services.html" class="nav-link">Services</a>
 
                             </li>
-                            <li class="nav-item"><a href="demo-web-agency-projects.html" class="nav-link">Products</a>
+                            <li class="nav-item"><a href="products.html" class="nav-link">Products</a>
                             </li>
                             <!-- <li class="nav-item"><a href="demo-web-agency-people.html" class="nav-link">People</a></li> -->
-                            <li class="nav-item"><a href="demo-web-agency-blog.html" class="nav-link">Blog</a></li>
-                            <li class="nav-item"><a href="demo-web-agency-contact.html" class="nav-link">Contact</a>
+                            <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -89,7 +94,7 @@
                 <div class="col-auto col-lg-2 text-end">
                     <div class="header-icon">
                         <div class="header-button">
-                            <a href="demo-web-agency-about.html"
+                            <a href="about.html"
                                 class="btn btn-rounded btn-dark-gray btn-medium btn-switch-text btn-box-shadow text-transform-none">
                                 <span>
                                     <span class="btn-double-text" data-text="Hire agency">Hire agency</span>
@@ -111,7 +116,9 @@
                 <div class="col-xl-8 col-lg-10 text-center position-relative page-title-extra-large"
                     data-anime='{ "el": "childs", "translateY": [-15, 0], "opacity": [0,1], "duration": 300, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                     <h1 class="fw-700 text-dark-gray mb-20px ls-minus-2px">Products</h1>
-                    <h2 class="fw-400 ls-0px mb-0">Explore the some of our finest products</h2>
+                    <h2 class="fw-400 ls-0px mb-0"> Explore the some of our finest products -<br>
+                        ⁠Designing, Engineering,
+                        Manufacturing, Selling, and Renting.</h2>
                 </div>
             </div>
         </div>
@@ -124,8 +131,7 @@
                 data-anime='{ "el": "childs", "translateY": [0, 0], "opacity": [0,1], "duration": 300, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                 <div class="col-sm-6 xs-mb-40px" data-bottom-top="transform: translateY(-40px)"
                     data-top-bottom="transform: translateY(40px)">
-                    <a href="demo-web-agency-single-project-creative.html"><img src="images/assets/stop_sign_board.png"
-                            class="border-radius-6px" alt="" /></a>
+                    <img src="images/assets/stop_sign_board.png" class="border-radius-6px" alt="" /></a>
                     <div
                         class="d-flex align-items-center justify-content-center flex-column text-center w-100 mt-40px sm-mt-25px">
 
@@ -134,8 +140,7 @@
                 </div>
                 <div class="col-sm-6 mt-4 xs-mt-0" data-bottom-top="transform: translateY(40px)"
                     data-top-bottom="transform: translateY(-40px)">
-                    <a href="demo-web-agency-single-project-creative.html"><img
-                            src="images/assets/personal_protection.png" class="border-radius-6px" alt="" /></a>
+                    <img src="images/assets/personal_protection.png" class="border-radius-6px" alt="" /></a>
                     <div
                         class="d-flex align-items-center justify-content-center flex-column text-center w-100 mt-40px sm-mt-25px">
 
@@ -146,8 +151,8 @@
         </div>
     </section>
     <!-- end section -->
-    <!-- start section -->
-    <section class="py-0 ps-2 pe-2 sm-p-0">
+    <!-- start portfolio section section -->
+    <!-- <section class="py-0 ps-2 pe-2 sm-p-0">
         <div class="container">
             <div class="row align-items-end mb-8 xs-mt-6">
                 <div class="col-md-9">
@@ -155,6 +160,30 @@
                         <div class="fs-350 xl-fs-300 lg-fs-250 sm-fs-200 xs-fs-120 text-base-color fw-600 ls-minus-20px position-relative d-inline-block word-break-normal"
                             data-bottom-top="transform:scale(1, 1) translate3d(0px, 0px, 0px);"
                             data-top-bottom="transform:scale(1, 1) translate3d(-100px, 0px, 0px);">projects</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row justify-content-center ">
+                <div class="col-12 filter-content">
+                    <ul id="service-list"
+                        class="portfolio-simple portfolio-wrapper grid grid-4col xxl-grid-4col xl-grid-4col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-extra-large text-center">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="py-0 ps-2 pe-2 sm-p-0">
+        <div class="container">
+            <div class="row align-items-end mb-8 xs-mt-6">
+                <div class="col-md-9">
+                    <div class="outside-box-left-20">
+                        <div class="fs-350 xl-fs-300 lg-fs-250 sm-fs-200 xs-fs-120 text-base-color fw-600 ls-minus-20px position-relative d-inline-block word-break-normal"
+                            data-bottom-top="transform:scale(1, 1) translate3d(0px, 0px, 0px);"
+                            data-top-bottom="transform:scale(1, 1) translate3d(-100px, 0px, 0px);">Products</div>
                     </div>
                 </div>
             </div>
@@ -170,15 +199,15 @@
                             <div class="portfolio-box" data-bottom-top="transform: translateY(40px)"
                                 data-top-bottom="transform: translateY(-40px)">
                                 <div class="portfolio-image bg-medium-gray border-radius-6px">
-                                    <a href="demo-web-agency-single-project-creative.html"><img
-                                            src="https://via.placeholder.com/800x635" alt="" /></a>
+                                    <img src="images/assets/sign.png" alt="" /></a>
                                 </div>
                                 <div class="portfolio-caption pt-35px pb-35px md-pt-25px md-pb-25px">
                                     <a href="demo-web-agency-single-project-creative.html"
-                                        class="text-dark-gray text-dark-gray-hover fw-600">Tailoring inteo</a>
+                                        class="text-dark-gray text-dark-gray-hover fw-600">Identification </a>
                                     <span
                                         class="d-inline-block align-middle w-10px separator-line-1px bg-light-gray ms-10px me-10px xl-ms-5px xl-me-5px"></span>
-                                    <div class="d-inline-block">Branding</div>
+                                    <div class="d-inline-block">Sign
+                                        Boards</div>
                                 </div>
                             </div>
                         </li>
@@ -188,15 +217,15 @@
                             <div class="portfolio-box" data-bottom-top="transform: translateY(-40px)"
                                 data-top-bottom="transform: translateY(40px)">
                                 <div class="portfolio-image bg-medium-gray border-radius-6px">
-                                    <a href="demo-web-agency-single-project-creative.html"><img
-                                            src="https://via.placeholder.com/800x635" alt="" /></a>
+                                    <img src="images/assets/diraction_sign_board.png" alt="" /></a>
                                 </div>
                                 <div class="portfolio-caption pt-35px pb-35px md-pt-25px md-pb-25px">
                                     <a href="demo-web-agency-single-project-creative.html"
-                                        class="text-dark-gray text-dark-gray-hover fw-600">Design blast</a>
+                                        class="text-dark-gray text-dark-gray-hover fw-600">Directional</a>
                                     <span
                                         class="d-inline-block align-middle w-10px separator-line-1px bg-light-gray ms-10px me-10px xl-ms-5px xl-me-5px"></span>
-                                    <div class="d-inline-block">Photography</div>
+                                    <div class="d-inline-block">Sign
+                                        Boards</div>
                                 </div>
                             </div>
                         </li>
@@ -206,15 +235,15 @@
                             <div class="portfolio-box" data-bottom-top="transform: translateY(40px)"
                                 data-top-bottom="transform: translateY(-40px)">
                                 <div class="portfolio-image bg-medium-gray border-radius-6px">
-                                    <a href="demo-web-agency-single-project-creative.html"><img
-                                            src="https://via.placeholder.com/800x635" alt="" /></a>
+                                    <img src="images/assets/stop_sign_board.png" alt="" /></a>
                                 </div>
                                 <div class="portfolio-caption pt-35px pb-35px md-pt-25px md-pb-25px">
                                     <a href="demo-web-agency-single-project-creative.html"
-                                        class="text-dark-gray text-dark-gray-hover fw-600">Herbal beauty</a>
+                                        class="text-dark-gray text-dark-gray-hover fw-600">Informational</a>
                                     <span
                                         class="d-inline-block align-middle w-10px separator-line-1px bg-light-gray ms-10px me-10px xl-ms-5px xl-me-5px"></span>
-                                    <div class="d-inline-block">Application</div>
+                                    <div class="d-inline-block">Sign
+                                        Boards</div>
                                 </div>
                             </div>
                         </li>
@@ -224,15 +253,14 @@
                             <div class="portfolio-box" data-bottom-top="transform: translateY(-40px)"
                                 data-top-bottom="transform: translateY(40px)">
                                 <div class="portfolio-image bg-medium-gray border-radius-6px">
-                                    <a href="demo-web-agency-single-project-creative.html"><img
-                                            src="https://via.placeholder.com/800x635" alt="" /></a>
+                                    <img src="images/assets/hse.png" alt="" /></a>
                                 </div>
                                 <div class="portfolio-caption pt-35px pb-35px md-pt-25px md-pb-25px">
                                     <a href="demo-web-agency-single-project-creative.html"
-                                        class="text-dark-gray text-dark-gray-hover fw-600">Cropo identity</a>
+                                        class="text-dark-gray text-dark-gray-hover fw-600">HSE</a>
                                     <span
                                         class="d-inline-block align-middle w-10px separator-line-1px bg-light-gray ms-10px me-10px xl-ms-5px xl-me-5px"></span>
-                                    <div class="d-inline-block">Packaging</div>
+                                    <div class="d-inline-block">Equipment’s</div>
                                 </div>
                             </div>
                         </li>
@@ -242,78 +270,25 @@
                             <div class="portfolio-box" data-bottom-top="transform: translateY(-20px)"
                                 data-top-bottom="transform: translateY(-80px)">
                                 <div class="portfolio-image bg-medium-gray border-radius-6px">
-                                    <a href="demo-web-agency-single-project-creative.html"><img
-                                            src="https://via.placeholder.com/800x635" alt="" /></a>
+                                    <img src="images/assets/personal_protection.png" alt="" /></a>
                                 </div>
                                 <div class="portfolio-caption pt-35px pb-35px md-pt-25px md-pb-25px">
                                     <a href="demo-web-agency-single-project-creative.html"
-                                        class="text-dark-gray text-dark-gray-hover fw-600">Harddot stone</a>
+                                        class="text-dark-gray text-dark-gray-hover fw-600">Personal Protective</a>
                                     <span
                                         class="d-inline-block align-middle w-10px separator-line-1px bg-light-gray ms-10px me-10px xl-ms-5px xl-me-5px"></span>
-                                    <div class="d-inline-block">Graphics</div>
+                                    <div class="d-inline-block">Equipment’s</div>
                                 </div>
                             </div>
                         </li>
                         <!-- end portfolio item -->
-                        <!-- start portfolio item -->
-                        <li class="grid-item web selected digital transition-inner-all">
-                            <div class="portfolio-box" data-bottom-top="transform: translateY(-40px)"
-                                data-top-bottom="transform: translateY(40px)">
-                                <div class="portfolio-image bg-medium-gray border-radius-6px">
-                                    <a href="demo-web-agency-single-project-creative.html"><img
-                                            src="https://via.placeholder.com/800x635" alt="" /></a>
-                                </div>
-                                <div class="portfolio-caption pt-35px pb-35px md-pt-25px md-pb-25px">
-                                    <a href="demo-web-agency-single-project-creative.html"
-                                        class="text-dark-gray text-dark-gray-hover fw-600">Violator series</a>
-                                    <span
-                                        class="d-inline-block align-middle w-10px separator-line-1px bg-light-gray ms-10px me-10px xl-ms-5px xl-me-5px"></span>
-                                    <div class="d-inline-block">Digital</div>
-                                </div>
-                            </div>
-                        </li>
-                        <!-- end portfolio item -->
-                        <!-- start portfolio item -->
-                        <li class="grid-item selected digital transition-inner-all">
-                            <div class="portfolio-box" data-bottom-top="transform: translateY(-20px)"
-                                data-top-bottom="transform: translateY(-80px)">
-                                <div class="portfolio-image bg-medium-gray border-radius-6px">
-                                    <a href="demo-web-agency-single-project-creative.html"><img
-                                            src="https://via.placeholder.com/800x635" alt="" /></a>
-                                </div>
-                                <div class="portfolio-caption pt-35px pb-35px md-pt-25px md-pb-25px">
-                                    <a href="demo-web-agency-single-project-creative.html"
-                                        class="text-dark-gray text-dark-gray-hover fw-600">Pixflow studio</a>
-                                    <span
-                                        class="d-inline-block align-middle w-10px separator-line-1px bg-light-gray ms-10px me-10px xl-ms-5px xl-me-5px"></span>
-                                    <div class="d-inline-block">Packaging</div>
-                                </div>
-                            </div>
-                        </li>
-                        <!-- end portfolio item -->
-                        <!-- start portfolio item -->
-                        <li class="grid-item web branding transition-inner-all">
-                            <div class="portfolio-box" data-bottom-top="transform: translateY(-40px)"
-                                data-top-bottom="transform: translateY(40px)">
-                                <div class="portfolio-image bg-medium-gray border-radius-6px">
-                                    <a href="demo-web-agency-single-project-creative.html"><img
-                                            src="https://via.placeholder.com/800x635" alt="" /></a>
-                                </div>
-                                <div class="portfolio-caption pt-35px pb-35px md-pt-25px md-pb-25px">
-                                    <a href="demo-web-agency-single-project-creative.html"
-                                        class="text-dark-gray text-dark-gray-hover fw-600">Potato islands</a>
-                                    <span
-                                        class="d-inline-block align-middle w-10px separator-line-1px bg-light-gray ms-10px me-10px xl-ms-5px xl-me-5px"></span>
-                                    <div class="d-inline-block">Design</div>
-                                </div>
-                            </div>
-                        </li>
-                        <!-- end portfolio item -->
+
                     </ul>
                 </div>
             </div>
         </div>
     </section>
+
     <!-- end section -->
     <!-- start section -->
     <section class="pb-4 sm-pt-30px sm-pb-40px overflow-hidden position-relative">
@@ -333,9 +308,9 @@
                             together
                             <div class="position-absolute left-minus-140px top-minus-140px z-index-9 xl-left-minus-110px top-minus-140px xl-top-minus-100px md-top-minus-90px z-index-9 xl-w-230px md-w-200px d-none d-md-block"
                                 data-anime='{ "translateY": [-15, 0], "scale": [0.5, 1], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                                <img src="images/demo-web-agency-05.png" class="animation-rotation" alt="">
+                                <img src="images/assets/round_text_295.png" class="animation-rotation" alt="">
                                 <div class="absolute-middle-center w-100 z-index-minus-1"><img
-                                        src="images/demo-web-agency-04.png" alt=""></div>
+                                        src="images/assets/round_bg_295.png" alt=""></div>
                             </div>
                         </div>
                     </div>
@@ -344,43 +319,51 @@
         </div>
     </section>
     <!-- end section -->
+
+    <!-- start footer -->
     <!-- start footer -->
     <footer class="p-0">
         <div class="container">
             <div class="row align-items-center mb-4 sm-mb-6">
                 <div class="col-md-10 col-sm-8 text-center text-sm-start xs-mb-25px">
                     <h5 class="mb-0 text-dark-gray fw-400 ls-minus-1px">Let's make something great <a
-                            href="demo-web-agency-contact.html"
+                            href="contact.html"
                             class="text-decoration-line-bottom-medium fw-600 text-dark-gray text-dark-gray-hover">work
                             together?</a></h5>
                 </div>
                 <div class="col-md-2 col-sm-4 text-center text-sm-end">
-                    <a href="demo-web-agency.html" class="footer-logo d-inline-block"><img
-                            src="images/demo-web-agency-logo-black.png"
-                            data-at2x="images/demo-web-agency-logo-black@2x.png" alt=""></a>
+                    <a href="index.html" class="footer-logo d-inline-block"><img src="images/assets/Logo.png"
+                            data-at2x="images/assets/Logo.png" alt=""></a>
                 </div>
             </div>
             <div class="row align-items-end mb-6 sm-mb-40px">
                 <!-- start footer column -->
                 <div class="col-lg-3 col-sm-4 text-center text-sm-start xs-mb-25px last-paragraph-no-margin">
-                    <span class="d-block text-dark-gray ls-minus-05px mb-5px fw-600">Crafto - London</span>
-                    <p class="w-80 lg-w-100 text-medium-gray fs-15 lh-28">401 Broadway, 24th Floor, Orchard View,
-                        London, UK</p>
+                    <span class="d-block text-dark-gray ls-minus-05px mb-5px fw-600">Disha Industrial Solutions -
+                        India</span>
+                    <p class="w-80 lg-w-100 text-medium-gray fs-15 lh-28">Thrissur Kerala India</p><br><br>
                 </div>
                 <!-- end footer column -->
                 <!-- start footer column -->
-                <div class="col-lg-3 col-sm-4 text-center text-sm-start xs-mb-25px last-paragraph-no-margin">
+                <!-- <div class="col-lg-3 col-sm-4 text-center text-sm-start xs-mb-25px last-paragraph-no-margin">
                     <span class="d-block text-dark-gray ls-minus-05px mb-5px fw-600">Crafto - France</span>
-                    <p class="w-80 lg-w-100 text-medium-gray fs-15 lh-28">27 Eden Walk Eden Centre, Orchard View, Paris,
+                    <p class="w-80 lg-w-100 text-medium-gray fs-15 lh-28">27 Eden Walk Eden Centre, Orchard View,
+                        Paris,
                         France</p>
-                </div>
+                </div> -->
                 <!-- end footer column -->
                 <!-- start footer column -->
                 <div class="col-md-3 col-sm-4 last-paragraph-no-margin ms-auto text-center text-sm-end">
-                    <a href="tel:1235678901" class="text-dark-gray d-block lh-18 text-dark-gray-hover">+ 123 567
-                        8901</a>
-                    <a href="mailto:info@domain.com"
-                        class="text-dark-gray text-dark-gray-hover fw-600 text-decoration-line-bottom">info@domain.com</a>
+                    <a href="tel:917907887783" class="text-dark-gray d-block lh-18 text-dark-gray-hover">INDIA - +91
+                        7907887783
+                    </a>
+                    <a href="tel:917907887783" class="text-dark-gray d-block lh-18 text-dark-gray-hover">UAE - +971
+                        522209890
+
+                    </a>
+                    <a href="mailto: dishaindustrialsolutions@hotmail.com"
+                        class="text-dark-gray text-dark-gray-hover fw-600 text-decoration-line-bottom">
+                        Dishaindustrialsolutions@hotmail.com</a>
                 </div>
                 <!-- end footer column -->
             </div>
@@ -390,28 +373,31 @@
                 <div class="row align-items-center">
                     <div class="col-lg-7 text-center text-lg-start md-mb-10px">
                         <ul class="footer-navbar fw-600 fs-16">
-                            <li class="nav-item active"><a href="demo-web-agency.html" class="nav-link">Home</a></li>
-                            <li class="nav-item"><a href="demo-web-agency-about.html" class="nav-link">Agency</a></li>
-                            <li class="nav-item"><a href="demo-web-agency-expertise.html" class="nav-link">Expertise</a>
+                            <li class="nav-item active"><a href="index.html" class="nav-link">Home</a>
                             </li>
-                            <li class="nav-item"><a href="demo-web-agency-projects.html" class="nav-link">Projects</a>
+                            <li class="nav-item"><a href="about.html" class="nav-link">About</a>
                             </li>
-                            <li class="nav-item"><a href="demo-web-agency-people.html" class="nav-link">People</a></li>
-                            <li class="nav-item"><a href="demo-web-agency-blog.html" class="nav-link">Blog</a></li>
-                            <li class="nav-item"><a href="demo-web-agency-contact.html" class="nav-link">Contact</a>
+                            <li class="nav-item"><a href="services.html" class="nav-link">Services</a>
+                            </li>
+                            <li class="nav-item"><a href="products.html" class="nav-link">Products</a>
+                            </li>
+                            <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a>
                             </li>
                         </ul>
                     </div>
                     <div class="col-lg-5 text-center text-lg-end">
-                        <span class="fs-15">&copy; 2024 Crafto is Proudly Powered by <a href="https://www.themezaa.com/"
+                        <span class="fs-15">&copy; This site is developed and maintained by the <a href=""
                                 class="text-decoration-line-bottom text-dark-gray text-dark-gray-hover fw-500"
-                                target="_blank">ThemeZaa</a></span>
+                                target="_blank">Code Hatch.</a></span>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
     <!-- end footer -->
+    <!-- end footer -->
+
     <!-- start scroll progress -->
     <div class="scroll-progress d-none d-xxl-block">
         <a href="#" class="scroll-top" aria-label="scroll">
@@ -423,41 +409,70 @@
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/vendors.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
-
-    // Assuming you have initialized Firebase and Firestore
-
-    <script>
-        // Function to fetch data from Firestore and dynamically create <li> elements
-        // Reference to your Firestore collection
+    <!-- <script>
         function fetchDataAndRender() {
-            var servicesCollection = firebase.firestore().collection('services');
+            var serviceList = document.getElementById('service-list');
 
-            // Retrieve data from Firestore
-            servicesCollection.get().then((querySnapshot) => {
-                querySnapshot.forEach((doc) => {
-                    // Retrieve service data
-                    var serviceData = doc.data();
 
-                    // Generate HTML for portfolio item using service data
-                    var portfolioItemHTML = `
-    <li class="grid-item selected digital transition-inner-all">
-        <div class="portfolio-box" data-bottom-top="transform: translateY(40px)" data-top-bottom="transform: translateY(-40px)">
-            <div class="portfolio-image bg-medium-gray border-radius-6px">
-                <a href="demo-web-agency-single-project-creative.html"><img src="https://via.placeholder.com/800x635" alt="" /></a>
-            </div>
-            <div class="portfolio-caption pt-35px pb-35px md-pt-25px md-pb-25px">
-                <a href="demo-web-agency-single-project-creative.html" class="text-dark-gray text-dark-gray-hover fw-600">${serviceData.service_name_one}</a>
-                <span class="d-inline-block align-middle w-10px separator-line-1px bg-light-gray ms-10px me-10px xl-ms-5px xl-me-5px"></span>
-                <div class="d-inline-block">${serviceData.service_name_two}</div>
-            </div>
-        </div>
-    </li>
-`;
+            // Reference to the collection you want to fetch data from
+            var collectionRef = firestore.collection('services');
 
-                    // Append portfolio item HTML to portfolio container
-                    $('.portfolio-wrapper').append(portfolioItemHTML);
+            // Fetch documents from the collection
+            collectionRef.get().then(function (querySnapshot) {
+                // Loop through all documents
+                querySnapshot.forEach(function (doc) {
+                    // Get data from each document
+                    var data = doc.data();
+
+
+                    // Create a new list item
+                    var listItem = document.createElement('li');
+                    listItem.className = 'grid-item selected digital transition-inner-all';
+
+                    var newlistItem = document.createElement('lis');
+                    newlistItem.className = 'grid-sizer';
+
+                    // Create the portfolio box
+                    var portfolioBox = document.createElement('div');
+                    portfolioBox.className = 'portfolio-box';
+                    portfolioBox.setAttribute('data-bottom-top', 'transform: translateY(40px)');
+                    portfolioBox.setAttribute('data-top-bottom', 'transform: translateY(-40px)');
+
+                    // Create the portfolio image
+                    var portfolioImage = document.createElement('div');
+                    portfolioImage.className = 'portfolio-image bg-medium-gray border-radius-6px';
+                    var imageLink = document.createElement('a');
+                    imageLink.href = 'demo-web-agency-single-project-creative.html';
+                    var image = document.createElement('img');
+                    image.src = 'images/assets/solution.png';
+                    image.alt = '';
+                    imageLink.appendChild(image);
+                    portfolioImage.appendChild(imageLink);
+
+                    // Create the portfolio caption
+                    var portfolioCaption = document.createElement('div');
+                    portfolioCaption.className = 'portfolio-caption pt-35px pb-35px md-pt-25px md-pb-25px';
+                    var captionLink = document.createElement('a');
+                    captionLink.href = 'demo-web-agency-single-project-creative.html';
+                    captionLink.className = 'text-dark-gray text-dark-gray-hover fw-600';
+                    captionLink.textContent = data.service_name_one; // Use the service name from Firestore
+                    var separator = document.createElement('span');
+                    separator.className = 'd-inline-block align-middle w-10px separator-line-1px bg-light-gray ms-10px me-10px xl-ms-5px xl-me-5px';
+                    var captionDiv = document.createElement('div');
+                    captionDiv.className = 'd-inline-block';
+                    captionDiv.textContent = 'Branding'; // Example text, you can change this to use data from Firestore
+                    portfolioCaption.appendChild(captionLink);
+                    portfolioCaption.appendChild(separator);
+                    portfolioCaption.appendChild(captionDiv);
+
+                    // Append all elements to the list item
+                    portfolioBox.appendChild(portfolioImage);
+                    portfolioBox.appendChild(portfolioCaption);
+                    listItem.appendChild(portfolioBox);
+
+                    serviceList.insertBefore(listItem, serviceList.querySelector('.grid-sizer'));
                 });
-            }).catch((error) => {
+            }).catch(function (error) {
                 console.log("Error getting documents: ", error);
             });
         }
@@ -465,7 +480,9 @@
 
         // Call the function to fetch data and render on page load
         fetchDataAndRender();
-    </script>
+    </script> -->
+
+
 
 
 
