@@ -1,0 +1,5 @@
+# mod_rewrite starts here
+
+RewriteEngine on
+
+# does not apply to existing director
