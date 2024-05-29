@@ -14,6 +14,9 @@
     --dark-gray: #1C1D1F;
     --alt-font: 'Montserrat', sans-serif;
     --primary-font: 'Open Sans', sans-serif;
+    --navy-color: #ffbd1f;
+    /* --blue-color: #5F70F4; */
+
 }
 
 .flex-container {
@@ -22,6 +25,11 @@
     justify-content: space-between;
 
     /* Adjust this as needed */
+}
+
+.custom-font {
+    font-family: var(--alt-font);
+
 }
 
 /* CSS for each list item */
@@ -109,7 +117,7 @@ body {
 
 /* header */
 .navbar .navbar-nav .nav-link {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 18px;
 }
 

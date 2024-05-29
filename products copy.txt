@@ -173,12 +173,11 @@
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class=" col-12 filter-content">
-                    <ul
-                        class="disha-image-list portfolio-simple  grid grid-3col xxl-grid-3col xl-grid-3col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-large text-center  ">
-                    </ul>
+        <div class="container-fluid">
+            <div class="row justify-content-center"
+                data-anime='{ "el": "childs", "translateY": [0, 0], "opacity": [0,1], "duration": 300, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="filter-content">
+                    <ul class="disha-image-list gutter-extra-large "></ul>
                 </div>
 
             </div>
@@ -394,8 +393,9 @@
 
                 // Create <li> element
                 const li = document.createElement('li');
-                li.className = 'grid-item   transition-inner-all';
-
+                li.className = 'disha-image-item text-center';
+                li.setAttribute('data-bottom-top', 'transform: translateY(40px)');
+                li.setAttribute('data-top-bottom', 'transform: translateY(-40px)');
 
 
 

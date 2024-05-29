@@ -1,0 +1,977 @@
+﻿<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <title>Disha Industrial Solutions</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Code Hatch">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="description"
+        content="To be the leading force in health, environment, and safety services, pioneering innovative solutions that inspire trust and foster a safer tomorrow for all.">
+    <!-- favicon icon -->
+    <link rel="shortcut icon" href="images/assets/favicon_icon.png">
+    <link rel="apple-touch-icon" href="images/assets/icon_57_57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/assets/icon_72_72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/assets/icon_114_114.png">
+    <!-- google fonts preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- style sheets and font icons  -->
+    <link rel="stylesheet" href="css/vendors.min.css" />
+    <link rel="stylesheet" href="css/icon.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/disha.css" />
+    <link rel="stylesheet" href="css/disha_sub.css" />
+
+    <link rel="stylesheet" href="demos/web-agency/web-agency.css" />
+</head>
+
+<body data-mobile-nav-style="classic" class="background-position-center-top"
+    style="background-image: url(images/vertical-line-bg-small-medium-gray.svg)">
+    <!-- start header -->
+    <header>
+        <!-- start navigation -->
+        <nav class="navbar navbar-expand-lg header-light header-transparent bg-transparent disable-fixed">
+            <div class="container-fluid">
+                <div class="col-auto col-lg-2 me-lg-0 me-auto">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/assets/logo_50.png" data-at2x="images/assets/logo_112.png" alt=""
+                            class="default-logo">
+                        <img src="images/assets/logo_50.png" data-at2x="images/assets/logo_112.png" alt=""
+                            class="alt-logo">
+                        <img src="images/assets/logo_50.png" data-at2x="images/assets/logo_112.png" alt=""
+                            class="mobile-logo">
+                    </a>
+                </div>
+                <div class="col-auto col-lg-8 menu-order position-static">
+                    <button class="navbar-toggler float-start" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-line"></span>
+                        <span class="navbar-toggler-line"></span>
+                        <span class="navbar-toggler-line"></span>
+                        <span class="navbar-toggler-line"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                            <li class="nav-item dropdown dropdown-with-icon">
+                                <a href="services.html" class="nav-link">Services</a>
+
+                            </li>
+                            <li class="nav-item"><a href="products.html" class="nav-link">Products</a>
+                            </li>
+                            <!-- <li class="nav-item"><a href="demo-web-agency-people.html" class="nav-link">People</a></li> -->
+                            <!-- <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li> -->
+                            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-auto col-lg-2 text-end">
+                    <div class="header-icon">
+                        <div class="header-button">
+                            <a href="whatsapp://send?phone=+971522209890"
+                                class="btn btn-rounded btn-dark-gray btn-medium btn-switch-text btn-box-shadow text-transform-none">
+                                <span>
+
+                                    <span class="btn-double-text" data-text="WhatsApp Us">WhatsApp Us</span>
+                                    <span><i class="fa-solid fa-arrow-right"></i></span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- end navigation -->
+    </header>
+    <!-- end header -->
+    <!-- start page title -->
+    <section class="p-0 top-space-margin page-title-center-alignment">
+        <div class="container">
+            <div class="row align-items-center justify-content-center extra-very-small-screen">
+                <div class="col-xl-8 col-lg-10 text-center position-relative page-title-extra-large"
+                    data-anime='{ "el": "childs", "translateY": [-15, 0], "opacity": [0,1], "duration": 300, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                    <h1 class="fw-700 text-dark-gray mb-20px ls-minus-2px" id="productName"> </h1>
+                    <h1 class="fw-700 text-dark-gray mb-20px ls-minus-2px" id="productTwo"></h1>
+                    <h2 class="fw-400 ls-0px mb-0" id="productDescriptionOne"></h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end page title -->
+
+    <!-- start section -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5 col-lg-6"
+                    data-anime='{ "el": "childs", "translateX": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
+                    <!-- <span class="fs-14 fw-600 text-dark-gray text-uppercase d-block mb-15px"><i
+                            class="bi bi-patch-check-fill fs-15 text-dark-gray me-5px"></i> Full service web design
+                        agency</span> -->
+                    <h3 class="text-dark-gray fw-600 ls-minus-2px" id="productDescriptionTwo"></h3>
+                </div>
+                <div class="col-xl-6 col-lg-6 offset-xl-1"
+                    data-anime='{ "el": "childs", "translateX": [-50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
+                    <p class="w-90 lg-w-100" id="productDescri"></p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end section -->
+    <!-- start section -->
+    <section class="p-0">
+        <div class="container-fluid pe-45px ps-45px">
+            <div class="row g-0">
+                <div class="col-12 skrollr-parallax mx-auto p-8 position-relative" data-bottom-top="width: 100%"
+                    data-center-top="width: 100%;" data-parallax-background-ratio="0.5" style="background-image: url()"
+                    data-anime='{ "el": "childs", "translateY": [15, 0], "translateX": [15, 0], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                    <div
+                        class="bg-white box-shadow-quadruple-large position-relative border-radius-4px w-400px xs-w-100 overflow-hidden z-index-1 float-end">
+                        <div class="p-50px lg-p-30px last-paragraph-no-margin text-center">
+                            <img src="images/assets/Logo.png" class="w-85px mb-30px" alt="" />
+                            <span class="fs-20 ls-minus-05px alt-font text-dark-gray fw-600 mb-10px d-block">We believe
+                                in quality service</span>
+                            <p class="w-95 lg-w-100">Empower your organisation's QHSE identity and discover the Sounds
+                                Synergy working environment.</p>
+                        </div>
+                        <div class="bg-dark-gray p-15px xs-p-10px text-center">
+                            <a href="contact.html"
+                                class="fs-14 xs-fs-12 ls-minus-05px text-white text-white-hover text-uppercase fw-500"><i
+                                    class="feather icon-feather-mail fs-20 me-10px align-middle"></i>Talk with our
+                                expert team</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end section -->
+    <!-- start section -->
+    <section>
+        <div class="container">
+            <div class="row mb-7">
+                <div class="col-lg-5 md-mb-10px"
+                    data-anime='{ "translateY": [0, 0], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                    <span
+                        class="ps-20px pe-20px mb-30px text-uppercase text-dark-gray fs-12 border-radius-100px bg-dark-gray text-white box-shadow-small d-inline-block">Why
+                        Disha Industrial Solutions</span>
+                    <h3 class="text-dark-gray fw-600 ls-minus-2px">We made things easier for your business.</h3>
+                </div>
+                <div class="col-lg-7"
+                    data-anime='{ "el": "childs", "translateY": [15, 0], "opacity": [0,1], "duration": 300, "delay": 0, "staggervalue": 100, "easing": "easeOutQuad" }'>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="fs-19 fw-600 text-dark-gray">Survey and Consultation</div>
+                        </div>
+                        <div class="col-md-9 last-paragraph-no-margin">
+                            <p>Dive deep into your needs and objectives through thorough discussions.</p>
+                        </div>
+                    </div>
+                    <div class="separator-line-1px bg-dark-gray mt-35px mb-35px"></div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="fs-19 fw-600 text-dark-gray">Strategy</div>
+                        </div>
+                        <div class="col-md-9 last-paragraph-no-margin">
+                            <p>Craft customized strategies to align perfectly with your goals.</p>
+                        </div>
+                    </div>
+                    <div class="separator-line-1px bg-dark-gray mt-35px mb-35px"></div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="fs-19 fw-600 text-dark-gray">Execute</div>
+                        </div>
+                        <div class="col-md-9 last-paragraph-no-margin">
+                            <p>Implement meticulously planned strategies with precision.</p>
+                        </div>
+                    </div>
+                    <div class="separator-line-1px bg-dark-gray mt-35px mb-35px"></div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="fs-19 fw-600 text-dark-gray">Launch</div>
+                        </div>
+                        <div class="col-md-9 last-paragraph-no-margin">
+                            <p>Deliver the end result or launch your service, marking our journey's culmination.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end section -->
+
+    <section class="py-0 ps-2 pe-2 sm-p-0">
+        <!-- <div class="container">
+            <div class="row align-items-end mb-8 xs-mt-6">
+                <div class="col-md-9">
+                    <div class="outside-box-left-15">
+                        <div class="fs-350 xl-fs-300 lg-fs-250 sm-fs-200 xs-fs-120 text-base-color fw-600 ls-minus-20px position-relative d-inline-block word-break-normal"
+                            data-bottom-top="transform:scale(1, 1) translate3d(0px, 0px, 0px);"
+                            data-top-bottom="transform:scale(1, 1) translate3d(-100px, 0px, 0px);">Industries</div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="container">
+            <div class="row align-items-end mb-8 xs-mt-6">
+                <h2 class="h1 text-dark-gray fw-600 mb-40px md-mb-25px ls-minus-3px word-break-normal image-text">
+                    Industries that we cover</h2>
+            </div>
+        </div>
+
+        <div id="myModal" class="modal ">
+            <div class="modal-content ">
+                <span class="close">&times;</span>
+                <h2 class=" text-dark-gray fw-600 mb-40px md-mb-25px ls-minus-3px word-break-normal image-text">
+                    Products</h2>
+                <div class="product-images"></div>
+            </div>
+        </div>
+
+
+
+        <div class="container-fluid">
+            <div class="row justify-content-center"
+                data-anime='{ "el": "childs", "translateY": [0, 0], "opacity": [0,1], "duration": 300, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <div class="filter-content">
+                    <ul class="disha-sub-image-list gutter-extra-large "></ul>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+    </section>
+
+    <section class="pt-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <!-- filter navigation -->
+                    <ul class="portfolio-filter nav nav-tabs justify-content-center border-0 fw-500 alt-font pb-5">
+                        <li class="nav active"><a data-filter="*" href="#">All</a></li>
+
+                    </ul>
+                    <!-- end filter navigation -->
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 filter-content">
+                    <ul
+                        class="portfolio-simple portfolio-wrapper grid-loading grid grid-3col xxl-grid-3col xl-grid-3col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-large text-center">
+                        <li class="grid-sizer"></li>
+                        <!-- start portfolio item -->
+                        <li class="grid-item   transition-inner-all">
+                            <div class="portfolio-box">
+                                <div class="portfolio-image bg-medium-gray border-radius-4px">
+                                    <img src="https://via.placeholder.com/800x635" alt="" />
+                                    <div class="portfolio-hover d-flex justify-content-center flex-column p-35px">
+                                        <div
+                                            class="portfolio-icon d-flex flex-row justify-content-center align-items-center">
+                                            <a href="https://via.placeholder.com/800x635" data-group="portfolio-items"
+                                                title="Lightbox gallery image title..."
+                                                class="d-flex flex-column justify-content-center text-dark-gray text-dark-gray-hover rounded-circle bg-white w-55px h-55px rounded-circle box-shadow-large move-bottom-top">
+                                                <i class="feather icon-feather-search fw-600" aria-hidden="true"></i>
+                                            </a>
+                                            <a href="demo-web-agency-single-project-creative.html"
+                                                class="d-flex flex-column justify-content-center text-dark-gray text-dark-gray-hover rounded-circle bg-white w-55px h-55px rounded-circle box-shadow-large move-bottom-top">
+                                                <i class="feather icon-feather-link fw-600" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="portfolio-caption pt-30px pb-30px sm-pt-20px sm-pb-20px">
+                                    <a href="demo-web-agency-single-project-creative.html"
+                                        class="text-dark-gray text-dark-gray-hover fw-600">Tailoring inteo</a>
+                                    <span
+                                        class="d-inline-block align-middle w-10px separator-line-1px bg-light-gray ms-10px me-10px"></span>
+                                    <div class="d-inline-block">Branding</div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- end portfolio item -->
+                        <!-- start portfolio item -->
+                        <li class="grid-item web  transition-inner-all">
+                            <div class="portfolio-box">
+                                <div class="portfolio-image bg-medium-gray border-radius-4px">
+                                    <img src="https://via.placeholder.com/800x635" alt="" />
+                                    <div class="portfolio-hover d-flex justify-content-center flex-column p-35px">
+                                        <div
+                                            class="portfolio-icon d-flex flex-row justify-content-center align-items-center">
+                                            <a href="https://via.placeholder.com/800x635" data-group="portfolio-items"
+                                                title="Lightbox gallery image title..."
+                                                class="d-flex flex-column justify-content-center text-dark-gray text-dark-gray-hover rounded-circle bg-white w-55px h-55px rounded-circle box-shadow-large move-bottom-top">
+                                                <i class="feather icon-feather-search fw-600" aria-hidden="true"></i>
+                                            </a>
+                                            <a href="demo-web-agency-single-project-creative.html"
+                                                class="d-flex flex-column justify-content-center text-dark-gray text-dark-gray-hover rounded-circle bg-white w-55px h-55px rounded-circle box-shadow-large move-bottom-top">
+                                                <i class="feather icon-feather-link fw-600" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="portfolio-caption pt-30px pb-30px sm-pt-20px sm-pb-20px">
+                                    <a href="demo-web-agency-single-project-creative.html"
+                                        class="text-dark-gray text-dark-gray-hover fw-600">Design blast</a>
+                                    <span
+                                        class="d-inline-block align-middle w-10px separator-line-1px bg-light-gray ms-10px me-10px"></span>
+                                    <div class="d-inline-block">Photography</div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- end portfolio item -->
+                        <!-- start portfolio item -->
+                        <li class="grid-item web  transition-inner-all">
+                            <div class="portfolio-box">
+                                <div class="portfolio-image bg-medium-gray border-radius-4px">
+                                    <img src="https://via.placeholder.com/800x635" alt="" />
+                                    <div class="portfolio-hover d-flex justify-content-center flex-column p-35px">
+                                        <div
+                                            class="portfolio-icon d-flex flex-row justify-content-center align-items-center">
+                                            <a href="https://via.placeholder.com/800x635" data-group="portfolio-items"
+                                                title="Lightbox gallery image title..."
+                                                class="d-flex flex-column justify-content-center text-dark-gray text-dark-gray-hover rounded-circle bg-white w-55px h-55px rounded-circle box-shadow-large move-bottom-top">
+                                                <i class="feather icon-feather-search fw-600" aria-hidden="true"></i>
+                                            </a>
+                                            <a href="demo-web-agency-single-project-creative.html"
+                                                class="d-flex flex-column justify-content-center text-dark-gray text-dark-gray-hover rounded-circle bg-white w-55px h-55px rounded-circle box-shadow-large move-bottom-top">
+                                                <i class="feather icon-feather-link fw-600" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="portfolio-caption pt-30px pb-30px sm-pt-20px sm-pb-20px">
+                                    <a href="demo-web-agency-single-project-creative.html"
+                                        class="text-dark-gray text-dark-gray-hover fw-600">Herbal beauty</a>
+                                    <span
+                                        class="d-inline-block align-middle w-10px separator-line-1px bg-light-gray ms-10px me-10px"></span>
+                                    <div class="d-inline-block">Application</div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- end portfolio item -->
+                        <!-- start portfolio item -->
+                        <li class="grid-item   transition-inner-all">
+                            <div class="portfolio-box">
+                                <div class="portfolio-image bg-medium-gray border-radius-4px">
+                                    <img src="https://via.placeholder.com/800x635" alt="" />
+                                    <div class="portfolio-hover d-flex justify-content-center flex-column p-35px">
+                                        <div
+                                            class="portfolio-icon d-flex flex-row justify-content-center align-items-center">
+                                            <a href="https://via.placeholder.com/800x635" data-group="portfolio-items"
+                                                title="Lightbox gallery image title..."
+                                                class="d-flex flex-column justify-content-center text-dark-gray text-dark-gray-hover rounded-circle bg-white w-55px h-55px rounded-circle box-shadow-large move-bottom-top">
+                                                <i class="feather icon-feather-search fw-600" aria-hidden="true"></i>
+                                            </a>
+                                            <a href="demo-web-agency-single-project-creative.html"
+                                                class="d-flex flex-column justify-content-center text-dark-gray text-dark-gray-hover rounded-circle bg-white w-55px h-55px rounded-circle box-shadow-large move-bottom-top">
+                                                <i class="feather icon-feather-link fw-600" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="portfolio-caption pt-30px pb-30px sm-pt-20px sm-pb-20px">
+                                    <a href="demo-web-agency-single-project-creative.html"
+                                        class="text-dark-gray text-dark-gray-hover fw-600">Cropo identity</a>
+                                    <span
+                                        class="d-inline-block align-middle w-10px separator-line-1px bg-light-gray ms-10px me-10px"></span>
+                                    <div class="d-inline-block">Packaging</div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- end portfolio item -->
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- start section -->
+    <!-- <section class="pt-0">
+        <div class="container">
+            <div class="row align-items-center position-relative">
+                <div class="col-lg-6">
+                    <div class="outside-box-left-20 md-outside-box-left-0" data-bottom-top="transform:scale(1.1, 1.1)"
+                        data-top-bottom="transform:scale(1, 1)">
+                        <img src="https://via.placeholder.com/945x785" alt="" />
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-1 z-index-9 md-mt-35px"
+                    data-anime='{ "el": "childs", "translateX": [15, 0], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                    <h2
+                        class="h1 text-dark-gray fw-600 mb-40px md-mb-25px outside-box-left-15 md-outside-box-left-0 ls-minus-3px word-break-normal">
+                        We create unique  experiences.</h2>
+                    <p class="w-85 lg-w-100">We are excited for our work and how it positively impacts clients. With
+                        over 12 year of experience have been constantly providing excellent.</p>
+                    <ul class="p-0 m-0 list-style-02">
+                        <li class="text-dark-gray pb-5px"><i class="bi bi-check-lg fs-18 me-10px"></i>The expertise of
+                            professional skills.</li>
+                        <li class="text-dark-gray pb-5px"><i class="bi bi-check-lg fs-18 me-10px"></i>Support and
+                            maintenance of your website.</li>
+                        <li class="text-dark-gray pb-5px"><i class="bi bi-check-lg fs-18 me-10px"></i>Visionary with a
+                            futuristic approach.</li>
+                        <li class="text-dark-gray pb-5px"><i class="bi bi-check-lg fs-18 me-10px"></i>Delivering a high
+                            quality website design.</li>
+                    </ul>
+                    <div
+                        class="pt-20px pb-20px ps-30px pe-30px bg-white border-radius-6px box-shadow-medium w-80 lg-w-100 mt-30px mb-15px icon-with-text-style-08">
+                        <div class="feature-box feature-box-left-icon-middle d-inline-flex align-top">
+                            <div class="feature-box-icon me-15px">
+                                <i class="bi bi-people icon-very-medium text-dark-gray"></i>
+                            </div>
+                            <div class="feature-box-content">
+                                <span class="fw-600 text-dark-gray d-block lh-26">10k+ people trusting agency.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- end section -->
+    <div class="spacer"></div>
+
+
+
+    <!-- start section -->
+    <section class="p-0">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 m-0 justify-content-center"
+                data-anime='{ "el": "childs", "translateY": [40, 0], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                <!-- start process step item -->
+                <div class="col process-step-style-10 ps-5 pe-5 pt-3 pb-3 sm-mb-20px position-relative hover-box">
+                    <div class="process-step-icon-box position-absolute top-minus-15px left-25px md-left-0px">
+                        <div
+                            class="number d-inline-block fs-90 fw-700 text-outline text-outline-color-extra-medium-gray">
+                            01</div>
+                    </div>
+                    <span class="fs-19 fw-600 text-dark-gray mb-5px d-block position-relative">QHSE equipments</span>
+                    <div class="position-relative pb-60px last-paragraph-no-margin">
+                        <p class="lh-30 w-90 sm-w-100">We are creating and providing compelling QHSE equipments which is
+                            the right it to the clients scope of work. DISHA will do all the assistance to receive as
+                            per client needs, after cost benefit analysis.</p>
+                        <a href="services.html"
+                            class="hover-content d-flex justify-content-center align-items-center icon-box w-45px h-45px rounded-circle bg-base-color border-2"><i
+                                class="feather icon-feather-arrow-right text-dark-gray icon-small"></i></a>
+                    </div>
+                </div>
+                <!-- end process step item -->
+                <!-- start process step item -->
+                <div
+                    class="col process-step-style-10 ps-5 pe-5 pt-3 pb-3 sm-mb-20px position-relative mt-40px md-mt-0 hover-box">
+                    <div class="process-step-icon-box position-absolute top-minus-15px left-25px md-left-0px">
+                        <div
+                            class="number d-inline-block fs-90 fw-700 text-outline text-outline-color-extra-medium-gray">
+                            02</div>
+                    </div>
+                    <span class="fs-19 fw-600 text-dark-gray mb-5px d-block position-relative">Risk Management Support
+                        and Bring QHSE Identity</span>
+                    <div class="position-relative pb-60px last-paragraph-no-margin">
+                        <p class="lh-30 w-90 sm-w-100">Develop a risk management system to the organizations or industry
+                            to facilitate the execution of projects.</p>
+                        <a href="services.html"
+                            class="hover-content d-flex justify-content-center align-items-center icon-box w-45px h-45px rounded-circle bg-base-color border-2"><i
+                                class="feather icon-feather-arrow-right text-dark-gray icon-small"></i></a>
+                    </div>
+                </div>
+                <!-- end process step item -->
+                <!-- start process step item -->
+                <div class="col process-step-style-10 ps-5 pe-5 pt-3 pb-3 sm-mb-20px position-relative hover-box">
+                    <div class="process-step-icon-box position-absolute top-minus-15px left-25px md-left-0px">
+                        <div
+                            class="number d-inline-block fs-90 fw-700 text-outline text-outline-color-extra-medium-gray">
+                            03</div>
+                    </div>
+                    <span class="fs-19 fw-600 text-dark-gray mb-5px d-block position-relative">Education and
+                        placement</span>
+                    <div class="position-relative pb-60px last-paragraph-no-margin">
+                        <p class="lh-30 w-90 sm-w-100">We ensure the Sounds competence and Provide Placement Assistance
+                            relevant to the QHSE sectors.</p>
+                        <a href="services.html"
+                            class="hover-content d-flex justify-content-center align-items-center icon-box w-45px h-45px rounded-circle bg-base-color border-2"><i
+                                class="feather icon-feather-arrow-right text-dark-gray icon-small"></i></a>
+                    </div>
+                </div>
+                <!-- end process step item -->
+            </div>
+        </div>
+    </section>
+    <!-- end section -->
+    <!-- start section -->
+    <section class="pb-4 sm-pt-30px sm-pb-40px overflow-hidden position-relative">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 text-center text-sm-start">
+                    <div class="outside-box-left-10 xl-outside-box-left-0 sm-outside-box-left-0">
+                        <div
+                            class="fs-250 xl-fs-200 lg-fs-200 md-fs-170 sm-fs-100 text-dark-gray fw-600 ls-minus-20px word-break-normal">
+                            work</div>
+                    </div>
+                </div>
+                <div class="col-sm-7 text-center text-sm-end">
+                    <div class="outside-box-right-5 sm-outside-box-right-0">
+                        <div
+                            class="fs-250 xl-fs-200 lg-fs-200 md-fs-170 sm-fs-100 text-base-color fw-600 ls-minus-20px position-relative d-inline-block word-break-normal">
+                            together
+                            <div class="position-absolute left-minus-140px top-minus-140px z-index-9 xl-left-minus-110px top-minus-140px xl-top-minus-100px md-top-minus-90px z-index-9 xl-w-230px md-w-200px d-none d-md-block"
+                                data-anime='{ "translateY": [-15, 0], "scale": [0.5, 1], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                                <img src="images/newassets/round-yellow-text.png" class="animation-rotation" alt="">
+                                <div class="absolute-middle-center w-100 z-index-minus-1"><img
+                                        src="images/newassets/round-yellow-background.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end section -->
+    <!-- start footer -->
+    <footer class="p-0">
+        <div class="container">
+            <div class="row align-items-center mb-4 sm-mb-6">
+                <div class="col-md-10 col-sm-8 text-center text-sm-start xs-mb-25px">
+                    <h5 class="mb-0 text-dark-gray fw-400 ls-minus-1px">Let's change the strategy and get the <a
+                            href="contact.html"
+                            class="text-decoration-line-bottom-medium fw-600 text-dark-gray text-dark-gray-hover">maximum
+                            output.</a></h5>
+                </div>
+                <div class="col-md-2 col-sm-4 text-center text-sm-end">
+                    <a href="index.html" class="footer-logo d-inline-block"><img src="images/assets/logo_50.png"
+                            data-at2x="images/assets/logo_112.png" alt=""></a>
+                </div>
+            </div>
+            <div class="row align-items-end mb-6 sm-mb-40px">
+                <!-- start footer column -->
+                <div class="col-lg-3 col-sm-4 text-center text-sm-start xs-mb-25px last-paragraph-no-margin">
+                    <span class="d-block text-dark-gray ls-minus-05px mb-5px fw-600">DISHA INDUSTRIAL SOLUTIONS</span>
+                    <span class="d-block text-dark-gray ls-minus-05px mb-5px fw-600">UAE -
+                        INDIA - SAUDI ARABIA</span>
+                    <br><br>
+                </div>
+                <!-- end footer column -->
+
+                <!-- start footer column -->
+                <div class="col-md-4 col-sm-4 last-paragraph-no-margin ms-auto text-center text-sm-end">
+                    <a href="tel:917907887783" class="text-dark-gray d-block lh-30 text-dark-gray-hover">INDIA - +91
+                        7907887783
+                    </a>
+                    <a href="tel:917907887783" class="text-dark-gray d-block lh-30 text-dark-gray-hover">UAE - +971
+                        522209890
+
+                    </a>
+
+                    <a href="mailto: info@dishaindustrialsolutions.com"
+                        class="text-dark-gray text-dark-gray-hover fw-600 text-decoration-line-bottom ">
+                        info@dishaindustrialsolutions.com</a> <br><br>
+
+                </div>
+                <!-- end footer column -->
+            </div>
+        </div>
+        <div class="footer-bottom pt-25px pb-25px border-top border-color-charcoal-grey">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 text-center text-lg-start md-mb-10px">
+                        <ul class="footer-navbar fw-600 fs-16">
+                            <li class="nav-item active"><a href="index.html" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item"><a href="about.html" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item"><a href="services.html" class="nav-link">Services</a>
+                            </li>
+                            <li class="nav-item"><a href="products.html" class="nav-link">Products</a>
+                            </li>
+
+                            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-5 text-center text-lg-end">
+                        <span class="fs-15">&copy; This site is developed by the <a href="http://codehatch.in"
+                                class="text-decoration-line-bottom text-dark-gray text-dark-gray-hover fw-500"
+                                target="_blank">Code
+                                Hatch.</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+    <!-- start scroll progress -->
+    <div class="scroll-progress d-none d-xxl-block">
+        <a href="#" class="scroll-top" aria-label="scroll">
+            <span class="scroll-text">Scroll</span><span class="scroll-line"><span class="scroll-point"></span></span>
+        </a>
+    </div>
+    <!-- end scroll progress -->
+    <!-- javascript libraries -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/vendors.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <!-- <script>
+        // Function to get URL parameters
+        // function getUrlParameter(name) {
+        //     name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+        //     var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+        //     var results = regex.exec(location.search);
+        //     return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+        // }
+
+        // // Usage example
+        // const documentId = getUrlParameter('documentId');
+        // console.log(documentId); // Output the documentId
+    </script> -->
+
+
+
+
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.0/firebase-app.js";
+        import { getFirestore, collection, query, where, getDocs } from "https://www.gstatic.com/firebasejs/9.1.0/firebase-firestore.js";
+        import { getStorage, ref, getDownloadURL } from "https://www.gstatic.com/firebasejs/9.1.0/firebase-storage.js";
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyBi8BrtiEvWbKfM3hol928a0yxAazjfYRU",
+            authDomain: "disha-website-34260.firebaseapp.com",
+            projectId: "disha-website-34260",
+            storageBucket: "disha-website-34260.appspot.com",
+            messagingSenderId: "960292523570",
+            appId: "1:960292523570:web:2cfa0938e00b74b486762b",
+            measurementId: "G-XTC7KZW1DH"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+
+        // Get a reference to the Firestore service
+        const db = getFirestore(app);
+
+        // Get a reference to the Firebase Storage service
+        const storage = getStorage(app);
+
+        function getUrlParameter(name) {
+            name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+            var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+            var results = regex.exec(location.search);
+            return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+        }
+
+        // Usage example
+        const documentId = getUrlParameter('documentId');
+        console.log(documentId);
+
+        // Get product details from Firebase
+        const productsRef = collection(db, 'products');
+        const docSnap = await getDocs(productsRef);
+
+        // Map the async operations to an array of promises
+        const promises = docSnap.docs.map(async (doc) => {
+            if (doc.id === documentId) {
+                const imageRef = ref(storage, doc.data().image_landscape);
+                const imageNewUrl = await getDownloadURL(imageRef);
+                console.log(imageNewUrl);
+                document.querySelector('.skrollr-parallax').style.backgroundImage = `url('${imageNewUrl}')`;
+            }
+        });
+
+        // Wait for all promises to resolve
+        await Promise.all(promises);
+
+
+        docSnap.forEach((doc) => {
+
+            if (doc.id === documentId) {
+
+                // const imageNewUrl = getDownloadURL(ref(storage, doc.data().image));
+                // // const imageNewUrl = await getDownloadURL(imageRef); // Await here
+                // console.log(imageNewUrl);
+                // document.querySelector('.skrollr-parallax').style.backgroundImage = `url('${imageNewUrl}')`;
+
+
+                const productName = doc.data().products_name_one;
+                const productNameSecond = doc.data().products_name_two;
+
+                const productDescription = doc.data().products_description;
+                const productDescriptionOne = doc.data().product_description_one;
+                const productDescriptionTwo = doc.data().product_description_two;
+
+
+
+                // Update the text of the h1 tag
+                document.getElementById("productName").innerText = productName;
+                document.getElementById("productTwo").innerText = productNameSecond;
+
+                document.getElementById("productDescri").innerText = productDescription;
+                document.getElementById("productDescriptionOne").innerText = productDescriptionOne;
+                document.getElementById("productDescriptionTwo").innerText = productDescriptionTwo;
+
+
+            }
+        });
+
+
+
+
+
+        async function fetchDataAndDisplay() {
+            // Select the <ul> list
+            const ulList = document.querySelector('.disha-sub-image-list');
+            // Clear existing <li> items
+            ulList.innerHTML = '';
+
+            // const querySnapshot = await getDocs(query(collection(db, "sub_products"), where("parent_id", "==", documentId)));
+            const querySnapshot = await getDocs(query(collection(db, "sub_products"), where("parent_id", "==", documentId)));
+
+
+            const imageUrlsToCache = [];
+
+            querySnapshot.forEach(async (doc) => {
+                const data = doc.data();
+                const imageUrl = await getDownloadURL(ref(storage, data.image));
+                imageUrlsToCache.push(imageUrl);
+
+
+
+
+                // Create <li> element
+                const li = document.createElement('li');
+                li.className = 'disha-sub-image-item text-center';
+                li.setAttribute('data-bottom-top', 'transform: translateY(40px)');
+                li.setAttribute('data-top-bottom', 'transform: translateY(-40px)');
+
+
+
+
+
+
+
+
+                li.innerHTML = `
+    <div class="disha-shimmer-effect"></div>
+    <div class="disha-sub-image-container">
+        <img loading="lazy" src="${imageUrl}" alt="${data.products_name_one}" class="disha-sub-image">
+    </div>
+    
+<div class="portfolio-caption pt-35px pb-35px md-pt-25px md-pb-25px">
+                               <div class="d-inline-block text-dark-gray text-dark-gray-hover fw-600">${data.products_name_one}</div>
+                                <span
+                                    class="d-inline-block align-middle w-10px separator-line-1px bg-light-gray ms-10px me-10px xl-ms-5px xl-me-5px"></span>
+                                <div class="d-inline-block">${data.products_name_two}</div>
+                            </div>
+`;
+
+                // Append <li> to <ul>
+                ulList.appendChild(li);
+
+                const assetPermanantImagePaths = [
+                    'images/wayfinding/warning 1.png',
+                    'images/wayfinding/regulatory sign board 1.png',
+                    'images/wayfinding/mandatory sign board 1.png',
+                    'images/wayfinding/informatory sign board 2.png',
+
+                    'images/wayfinding/directional sign board 1.png',
+                    // Add more asset image paths as needed
+                ];
+
+                const assetTemporaryImagePaths = [
+                    'images/wayfinding/warning 2.png',
+                    'images/wayfinding/regulatory sign board 2.png',
+                    'images/wayfinding/mandatory sign board 2.png',
+                    'images/wayfinding/informatory sign board 1.png',
+                    'images/wayfinding/directional sign board 2.png',
+                    // Add more asset image paths as needed
+                ];
+
+                const assetCustomImagePaths = [
+                    'images/assets/floor-stands.png',
+                    // Add more asset image paths as needed
+                ];
+
+
+
+                // Preload and replace shimmer effect with image
+                const img = new Image();
+                img.src = imageUrl;
+
+
+                // img.onload = () => {
+                //     const shimmerEffect = li.querySelector('.disha-shimmer-effect');
+                //     const imageContainer = li.querySelector('.disha-sub-image-container');
+
+                //     // Replace shimmer effect with image
+                //     imageContainer.innerHTML = `<img src="${imageUrl}" alt="${data.product_name}" class="disha-sub-image">`;
+                //     shimmerEffect.style.display = 'none';
+                // };
+
+                // Inside the forEach loop where you create and append the images
+                img.onload = () => {
+                    const shimmerEffect = li.querySelector('.disha-shimmer-effect');
+                    const imageContainer = li.querySelector('.disha-sub-image-container');
+
+                    // Create an image element
+                    const image = document.createElement('img');
+                    image.src = imageUrl;
+                    image.alt = data.product_name;
+                    image.className = 'disha-sub-image';
+
+                    // Replace shimmer effect with the image element
+                    imageContainer.innerHTML = '';
+                    imageContainer.appendChild(image);
+                    shimmerEffect.style.display = 'none';
+
+                    if (documentId == 'xQ1CjZrUc8cxeIJr2rf6') {
+
+                        // Add click event listener to the image
+                        image.addEventListener('click', () => {
+                            console.log('Image clicked:', imageUrl);
+                        });
+
+                        // Get the modal element
+                        const modal = document.getElementById("myModal");
+
+                        // Get the <span> element that closes the modal
+                        const closeBtn = modal.querySelector(".close");
+
+                        // Get the container to hold product images
+                        const productImagesContainer = modal.querySelector(".product-images");
+
+                        image.addEventListener('click', () => {
+                            // Clear any previous images
+                            productImagesContainer.innerHTML = '';
+
+                            // Show the modal
+                            modal.style.display = "block";
+
+
+                            // Add permanent signboards subheading
+                            const permanentSubheading = document.createElement('h3');
+                            permanentSubheading.textContent = 'Permanent Sign Boards';
+                            permanentSubheading.style.marginTop = '20px';
+                            permanentSubheading.style.textAlign = 'center';
+
+                            productImagesContainer.appendChild(permanentSubheading);
+
+                            // Create container for permanent signboard images
+                            const permanentImageContainer = document.createElement('div');
+                            permanentImageContainer.className = 'image-container-sub';
+
+                            // Create and append permanent signboard images
+                            assetPermanantImagePaths.forEach(path => {
+                                const productImage = document.createElement('img');
+                                productImage.src = path;
+                                productImage.className = 'product-image-sub ';
+                                permanentImageContainer.appendChild(productImage);
+                            });
+
+                            // Append permanent image container to productImagesContainer
+                            productImagesContainer.appendChild(permanentImageContainer);
+
+
+                            // Add temporary signboards subheading
+                            const temporarySubheading = document.createElement('h3');
+                            temporarySubheading.textContent = 'Temporary Sign Boards';
+                            temporarySubheading.style.marginTop = '20px';
+                            temporarySubheading.style.textAlign = 'center';
+                            productImagesContainer.appendChild(temporarySubheading);
+
+                            // Create container for temporary signboard images
+                            const temporaryImageContainer = document.createElement('div');
+                            temporaryImageContainer.className = 'image-container-sub';
+
+                            // Create and append temporary signboard images
+                            assetTemporaryImagePaths.forEach(path => {
+                                const productImage = document.createElement('img');
+                                productImage.src = path;
+                                productImage.className = 'product-image-sub ';
+                                temporaryImageContainer.appendChild(productImage);
+                            });
+
+                            // Append temporary image container to productImagesContainer
+                            productImagesContainer.appendChild(temporaryImageContainer);
+
+
+
+                            // Add temporary signboards subheading
+                            const customSubheading = document.createElement('h3');
+                            customSubheading.textContent = 'Custom Sign Boards';
+                            customSubheading.style.marginTop = '20px';
+                            customSubheading.style.textAlign = 'center';
+                            productImagesContainer.appendChild(customSubheading);
+
+                            // Create container for temporary signboard images
+                            const customImageContainer = document.createElement('div');
+                            customImageContainer.className = 'image-container-sub';
+
+                            // Create and append temporary signboard images
+                            assetCustomImagePaths.forEach(path => {
+                                const productImage = document.createElement('img');
+                                productImage.src = path;
+                                productImage.className = 'product-image-sub ';
+                                customImageContainer.appendChild(productImage);
+                            });
+
+                            // Append temporary image container to productImagesContainer
+                            productImagesContainer.appendChild(customImageContainer);
+                        });
+
+                        // Close the modal when the close button is clicked
+                        closeBtn.onclick = function () {
+                            modal.style.display = "none";
+                        };
+
+                        // Close the modal when clicking outside of it
+                        window.onclick = function (event) {
+                            if (event.target == modal) {
+                                modal.style.display = "none";
+                            }
+                        };
+
+                    }
+
+
+                };
+
+            });
+
+
+        }
+
+
+
+
+
+
+        // Call the function to fetch data and display
+        fetchDataAndDisplay().catch((error) => {
+            console.log("Error fetching data: ", error);
+        });
+
+    </script>
+
+</body>
+
+</html>

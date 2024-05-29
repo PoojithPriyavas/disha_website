@@ -3997,6 +3997,10 @@ textarea:focus,
   background-color: var(--base-color);
 }
 
+.bg-blue-color {
+  background-color: var(--blue-color);
+}
+
 .bg-dark-gray,
 .bg-dark-gray:focus {
   background-color: var(--dark-gray);
@@ -5346,6 +5350,11 @@ textarea:focus,
 }
 
 /* Screen height */
+
+.extra-very-very-small-screen {
+  height: 150px !important;
+}
+
 .extra-very-small-screen {
   height: 250px !important;
 }

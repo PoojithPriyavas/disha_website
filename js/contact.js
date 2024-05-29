@@ -34,6 +34,7 @@ function sendMailJs() {
                 console.log(res);
                 alert("your message sent succesfully");
 
+
             }
         ).catch((err) => console.log(err));
 
